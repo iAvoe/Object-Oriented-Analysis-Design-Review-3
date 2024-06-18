@@ -8,7 +8,7 @@ Business value is important to both the company and its customers
   - deliver quality
   - deliver on time
   - deliver within budget
-- A project can only be considered successful if it delivers the predetermined business value
+- A project can only be considered successful if it delivers the pre-determined business value
 
 ## Systems Analysis & Design Method (SADM)
 
@@ -27,6 +27,7 @@ Business value is important to both the company and its customers
 
 **Systems analysis**
 - Analyzing the stakeholder needs in order to understand their requirements
+
 **System Design**
 - Guidelines on how the proposed system will solve problem
 
@@ -68,16 +69,19 @@ An activity that the system performs, usually in response to a request or trigge
 **Event**
 - Something that occurs in a specific temporal-spacial place
 - We care about only a small set of event in real world
+
 **External Event**
 - Usually initiated by an external agent or actor, not inside the system
   - Customer buys a product
   - User updates profile
-  - Sales manager updates production plans
+  - Manager updates production plans
+
 **Temporal Event**
 - datetime or counter defined event
   - Monthly billing
   - Cron jobs
   - Weekly summary report
+
 **State Event**
 - Internal states the system is at that triggers the event
 
@@ -106,12 +110,12 @@ Do not include events that involve such system controls as:
 
 ## Use Case Diagrams
 
-**Use Case Diagrams**
-- UML model used to graphically show uses cases and their relationships to actors
-**UML**
-- Unified Modelling Language, the standard for diagrams and terminology
-**Actor**
-- All types of end users, including malicious users
+UML model used to graphically show uses cases and their relationships to actors
+
+**UML**: Unified Modelling Language, the standard for diagrams and terminology
+
+**Actor**: All types of end users, including malicious users
+
 **Automation boundary**
 - A box that separates actors on the outside, system components at inside
 - The box represents the system itself
@@ -124,6 +128,11 @@ Do not include events that involve such system controls as:
 ## Quizzes
 
 ### Event Decomposition Technique
+
+List all types of events we care about in EDT:
+- External
+- Temporal
+- State
 
 The technique used to identify use cases based on external, temporal, and state events is the _______.
 - Event Decomposition Technique
@@ -142,14 +151,14 @@ When a customer buys an item of merchandise using his store credit account, a se
 One way to determine whether an occurrence is an event or part of the interaction before or after an event is by asking if any long pauses or intervals occur
 - True
 
-The event decomposition technique begins by identifying all of the _______.
-- Business events
+The event decomposition technique begins by identifying all of the _______ events.
+- Business
 
 In using the event decomposition technique, which of the following is NOT a type of event that is considered?
-- Event initiated by a user login
+- Event initiated by a user login (user login are considered in design phase, core process 4)
 
-The way to determine whether an occurrence is an event or part of the interaction is to ask the following question: _______?
-- Is the system at rest
+The way to determine whether an occurrence is an event or part of the interaction is to ask the following question:
+- Is the system at rest?
 
 The event decomposition technique begins by identifying use cases.​
 - False, identify external events
@@ -164,8 +173,8 @@ The end product of the event decomposition technique is a list of use cases at t
 
 ### State event
 
-A(n) _______ event occurs when something happens inside the system that triggers the need for processing.
-- State
+A(n) _______  occurs when something happens inside the system that triggers the need for processing.
+- State event
 
 A state event is a political or governmental activity.​
 - False
@@ -349,11 +358,11 @@ The automation boundary is the same thing as the system boundary
 
 ## User Goal Technique
 
-One technique to identify use cases is to ask users what they want to achieve with a particular business procedure. This technique is called ______.
+One technique to identify use cases is to ask users what they want to achieve with a particular business procedure. This technique is called:
 - User goal technique
 
 During the interviews in the user goal technique, the analyst should not try to influence the users in discussing work methods.
-- False
+- False, work methods is the whole point to analyze phase (core process 3)
 
 Before using the user goal technique the analyst must first identify and classify all the types of system users.
 - True
@@ -362,10 +371,10 @@ Before using the user goal technique the analyst must first identify and classif
 
 ### System Components
 
-Checks or safety procedures are put in place to protect the integrity of the system is referred to as _______.
-- system controls
+Checks or safety procedures are put in place to protect the integrity of the system is referred to:
+- System controls
 
-The user goal technique normally begins by identifying, listing, and classifying _______ .
+The user goal technique normally begins by identifying, listing, and classifying:
 - System users
 
 -----
